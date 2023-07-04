@@ -1,0 +1,198 @@
+.section-nuestros-tes {
+  max-width: 1620px !important  ;
+}
+
+.nuestros-tes-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.nuestros-tes-description {
+  font-family: "Antic", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.arte {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  transition: background-image 0, 1s ease-in-out;
+  background-image: url(../img/logo-te/arte.webp);
+  background-size: cover;
+}
+
+.arte:hover {
+  background-image: url(../img/hebras/nuestros-tes/hebra-arte.webp);
+}
+
+.del-pago {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  transition: background-image 0, 1s ease-in-out;
+  background-image: url(../img/logo-te/pago.webp);
+  background-size: cover;
+}
+
+.del-pago:hover {
+  background-image: url(../img/hebras/nuestros-tes/pago-hebra.webp);
+}
+
+.al-pie {
+  width: 230px;
+  height: 230px;
+  border-radius: 20%;
+  transition: background-image 0, 1s ease-in-out;
+  background-image: url(../img/logo-te/al-pie.webp);
+  background-size: cover;
+}
+
+.al-pie:hover {
+  background-image: url(../img/hebras/nuestros-tes/al-pie.webp);
+}
+
+.dulce-emma {
+  width: 230px;
+  height: 234px;
+  border-radius: 20%;
+  transition: background-image 0, 1s ease-in-out;
+  background-image: url(../img/logo-te/dulce.webp);
+  background-size: cover;
+}
+
+.dulce-emma:hover {
+  background-image: url(../img/hebras/nuestros-tes/hebra-dulce.webp);
+}
+
+@media (max-width: 990px) {
+  .arte {
+    width: 200px;
+    height: 200px;
+  }
+
+  .del-pago {
+    width: 200px;
+    height: 200px;
+  }
+
+  .al-pie {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dulce-emma {
+    width: 200px;
+    height: 203px;
+  }
+}
+
+@media (max-width: 768px) {
+  .arte {
+    width: 190px;
+    height: 190px;
+  }
+
+  .del-pago {
+    width: 190px;
+    height: 190px;
+  }
+
+  .al-pie {
+    width: 190px;
+    height: 190px;
+  }
+
+  .dulce-emma {
+    width: 190px;
+    height: 193px;
+  }
+}
+
+@media (max-width: 576px) {
+  .arte {
+    width: 150px;
+    height: 150px;
+  }
+
+  .del-pago {
+    width: 150px;
+    height: 150px;
+  }
+
+  .al-pie {
+    width: 150px;
+    height: 150px;
+  }
+
+  .dulce-emma {
+    width: 150px;
+    height: 153px;
+  }
+}
+
+.item-img {
+  max-height: 65%;
+  max-width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s ease;
+}
+
+.item-img:hover {
+  transform: scale(1.1);
+}
+
+.item-title {
+  font-family: "Antic", sans-serif;
+  font-size: 24px;
+  color: rgb(58, 55, 55);
+  border: thin solid rgb(233, 230, 230);
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 20px;
+
+  background: #ef3b36; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #df8380
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #e79896
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sabor {
+  font-family: "Antic", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-transform: uppercase;
+  border: thin solid rgba(146, 29, 29, 0.377);
+  text-align: center;
+}
+
+.item-description {
+  font-family: "Antic", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  padding: 4px;
+  margin-top: 5px;
+  line-height: 1.3;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.bforyou {
+  max-width: 40%;
+}

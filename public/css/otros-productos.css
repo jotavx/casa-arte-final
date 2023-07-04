@@ -1,0 +1,462 @@
+.tortas-item {
+  display: flex;
+  flex-direction: column;
+  /* height: 25%; */
+}
+
+.degustacion-title {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.tortas-img {
+  max-height: 55%;
+  max-width: 15vw;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s ease;
+}
+
+.tortas-title {
+  font-family: "Chathura", cursive;
+  font-size: 35px;
+  font-weight: lighter;
+  color: rgb(19, 19, 19);
+  background: #ef3b36; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #df8380
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #e79896
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.tortas-description {
+  font-family: "Antic", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .degustacion-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .degustacion-title {
+    font-size: 28px;
+  }
+}
+
+.section-sandwich {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.tostone-card {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(238, 148, 152, 0.123);
+  border-radius: 90px;
+}
+
+.tostone-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tostone-img {
+  width: 500px;
+  height: 500px;
+}
+
+.tostone-title {
+  margin: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: thin dotted black;
+}
+
+.tostone-description {
+  margin: 25px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(133, 138, 66, 0.678);
+  border-bottom: thin dotted black;
+}
+
+.sandwich-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(238, 148, 152, 0.123);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  border-radius: 90px;
+}
+
+.sandwich-img {
+  width: 200px;
+  height: 200px;
+}
+
+.sandwichs {
+  font-family: "Oswald", sans-serif;
+}
+
+.sandwich-title {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgb(20, 20, 20);
+  border-bottom: thin dotted black;
+}
+
+@media (max-width: 1200px) {
+  .tostone-img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .tostone-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 990px) {
+  .tostone-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tostone-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .sandwich-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .tostone-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tostone-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .degustacion-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tostone-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .tostone-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .degustacion-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 390px) {
+  .tostone-card {
+    background-color: white;
+    padding: 0;
+  }
+
+  .tostone-title {
+    width: 100%;
+  }
+
+  .sandwich-list {
+    background-color: white;
+    padding: 0;
+  }
+}
+
+.mermeladas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.mermeladas-title {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 68px;
+  font-weight: 100;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.mermeladas-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.mermeladas-item {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 35px;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.mermeladas-productor {
+  font-family: "Poppins", cursive;
+  font-style: italic;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.mermeladas-img {
+  margin: 24px;
+  width: 650px;
+  height: 650px;
+}
+
+.mermeladas-description {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-left: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(116, 119, 74, 0.678);
+}
+
+@media (max-width: 990px) {
+  .mermeladas-list {
+    margin-bottom: 25px;
+  }
+
+  .mermeladas-item {
+    font-size: 30px;
+    margin: 5px 25px;
+  }
+
+  .mermeladas-img {
+    margin-bottom: 25px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .mermeladas-description {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mermeladas {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .mermeladas-list {
+    margin-bottom: 25px;
+  }
+
+  .mermeladas-item {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .mermeladas-img {
+    margin-bottom: 25px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .mermeladas-description {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .mermeladas {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .mermeladas-list {
+    margin-bottom: 25px;
+  }
+
+  .mermeladas-item {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .mermeladas-img {
+    margin-bottom: 25px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .mermeladas-description {
+    margin-left: 0;
+  }
+}
+
+.hafen-card {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(238, 148, 152, 0.123);
+  border-radius: 90px;
+  padding: 0;
+}
+
+.section-hafen {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.hafen-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hafen-img {
+  width: 500px;
+  height: 500px;
+}
+
+.hafen-title {
+  font-family: "Skranji", cursive;
+  color: darkgoldenrod;
+}
+.hafen-descripcion {
+  font-family: "Skranji", cursive;
+  border-radius: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .hafen-img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .hafen-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 990px) {
+  .hafen-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hafen-img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hafen-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hafen-img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .hafen-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .hafen-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .hafen-descripcion {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hafen-card {
+    background-color: white;
+  }
+
+  .hafen-title {
+    width: 80%;
+  }
+
+  .hafen-descripcion {
+    width: 80%;
+    margin-top: 25px;
+  }
+}

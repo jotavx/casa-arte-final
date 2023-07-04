@@ -1,0 +1,18 @@
+.slider-title {
+  color: rgb(255, 255, 255);
+  font-family: "Reenie Beanie", cursive;
+  font-weight: normal;
+  font-size: 48px;
+  background-color: rgba(0, 0, 0, 0.315);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .slider-title {
+    color: rgb(255, 255, 255);
+    font-family: "Reenie Beanie", cursive;
+    font-weight: normal;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.315);
+  }
+}

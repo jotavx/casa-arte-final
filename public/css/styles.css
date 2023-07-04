@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(../img/bg-leaves.webp);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.subtitle {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  color: #2b2828;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 35px;
+}
+
+.subtitle:after {
+  position: relative;
+  bottom: 5px;
+  margin-left: 10px;
+  border-bottom: 1px solid rgba(238, 148, 152, 0.5);
+  flex-grow: 1;
+  content: "";
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subtitle {
+    font-size: 25px;
+  }
+}
+
+/* Header */
+
+.cabeza-de-pagina {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #416f83,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #264350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+}
+
+.titulo-pagina {
+  color: white !important;
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 38px;
+}
+
+.navbar-text {
+  text-align: center;
+  margin-left: auto;
+  align-self: center;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.fa-lg {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .titulo-pagina {
+    color: white !important;
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .titulo-pagina {
+    color: white !important;
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 22px;
+  }
+}
+
+/* Footer */
+
+.pie-de-pagina {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #416f83,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #264350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 90px;
+}
+
+.copyright {
+  padding: 2rem;
+  color: gray;
+}
+
+.dev {
+  font-size: 14px;
+}
+
+.logo-footer {
+  margin-top: 20px;
+  max-width: 40vw;
+  max-height: 20vh;
+}
+
+@media (max-width: 576px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

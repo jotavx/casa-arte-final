@@ -1,0 +1,31 @@
+.gallery-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  border: thick solid rgba(112, 111, 151, 0.575) !important;
+}
+
+.featured-quote-text {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin-top: 100px;
+}
+
+.featured-quote-author {
+  font-size: 32px;
+  margin-top: 32px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 576px) {
+  .featured-quote-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

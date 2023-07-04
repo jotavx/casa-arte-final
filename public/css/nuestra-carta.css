@@ -1,0 +1,38 @@
+.carta-frente {
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carta-dorso {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1400px) {
+  .carta-frente,
+  .carta-dorso {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .carta-frente,
+  .carta-dorso {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .carta-frente,
+  .carta-dorso {
+    max-width: 100%;
+    height: auto;
+  }
+}
